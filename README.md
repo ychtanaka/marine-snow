@@ -32,7 +32,11 @@ The synthesized images for Task 2 have small- and large-sized marine snow artifa
 You can download MSRB Dataset from this repository. The file is zipped. After unzipping, you can find MSRB1 and MSRB2 directories which correspond to the Tasks 1 and 2, respectively. There are training and test directories under MSRB1 and MSRB2.
 
 ## Examples from MSRB Dataset
-The images below are examples from the test data of MSRB Dataset.
+The images below are examples from the test data of MSRB Dataset. From left to right: Original underwater image, synthesized image for MSR Task 1, and synthesized image for MSR Task 2.
+
+<img src="img/2076923_orig.png" width=30%> <img src="img/2076923_task1.png" width=30%> <img src="img/2076923_task2.png" width=30%>
+<img src="img/2907172_orig.png" width=30%> <img src="img/2907172_task1.png" width=30%> <img src="img/2907172_task2.png" width=30%>
+<img src="img/41918455_orig.png" width=30%> <img src="img/41918455_task1.png" width=30%> <img src="img/41918455_task2.png" width=30%>
 
 ## MSR Benchmarking Results
 The following tables are the current state-of-the-art results for marine snow removal. The average PSNRs/SSIMs are computed over the test datasets. If you would like to update the results, [please let us know](<mailto:ytnk@cc.tuat.ac.jp>)!
@@ -59,6 +63,17 @@ The following tables are the current state-of-the-art results for marine snow re
 |Synthesized image   | 23.83  | 0.876  |
 
 ### Restoration Results
+Images below are restoration results. From left to right: Median filter, adaptive median filter, and U-Net.
+
+#### MSR Task 1
+<img src="img/task1/2076923_mf.png" width=30%> <img src="img/task1/2076923_amf.png" width=30%> <img src="img/task1/2076923_unet.png" width=30%>
+<img src="img/task1/2907172_mf.png" width=30%> <img src="img/task1/2907172_amf.png" width=30%> <img src="img/task1/2907172_unet.png" width=30%>
+<img src="img/task1/41918455_mf.png" width=30%> <img src="img/task1/41918455_amf.png" width=30%> <img src="img/task1/41918455_unet.png" width=30%>
+
+#### MSR Task 2
+<img src="img/task2/2076923_mf.png" width=30%> <img src="img/task2/2076923_amf.png" width=30%> <img src="img/task2/2076923_unet.png" width=30%>
+<img src="img/task2/2907172_mf.png" width=30%> <img src="img/task2/2907172_amf.png" width=30%> <img src="img/task2/2907172_unet.png" width=30%>
+<img src="img/task2/41918455_mf.png" width=30%> <img src="img/task2/41918455_amf.png" width=30%> <img src="img/task2/41918455_unet.png" width=30%>
 
 ## Copyright
 Copyright (c) 2020 Yuya Sato, Takumi Ueda, and Yuichi Tanaka.
