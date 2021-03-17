@@ -1,5 +1,12 @@
 # Marine Snow Removal Benchmarking Dataset
+
 Welcome to the repository for **Marine Snow Removal Benchmarking Dataset** (**MSRB Dataset** in short).
+
+<img src="img/174710351_orig.png" width=30%>
+<img src="img/174710351_task1.png" width=30%>
+<img src="img/174710351_task2.png" width=30%>
+
+*An example from Marine Snow Removal Benchmarking Dataset. Left: Original underwater image. Middle: Synthesized image for Task 1, small-sized marine snow artifacts. Right: Synthesized image for Task 2, various-sized marine snow artifacts.*
 
 Marine snow is one of the main degradation sources of underwater images that are caused by small particles, e.g., organic matter and sand, between the underwater scene and photosensors. We mathematically model two typical types of marine snow from the observations of real underwater images. The modeled artifacts are synthesized with underwater images to construct large-scale pairs of ground-truth and degraded images to calculate objective qualities for marine snow removal and to train a deep neural network.
 
