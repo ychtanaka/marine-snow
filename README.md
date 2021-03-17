@@ -1,16 +1,17 @@
 # Marine Snow Removal Benchmarking Dataset
-Welcome to the repository for Marine Snow Removal Benchmarking Dataset (MSRB Dataset in short).
+Welcome to the repository for **Marine Snow Removal Benchmarking Dataset** (**MSRB Dataset** in short).
 
 Marine snow is one of the main degradation sources of underwater images that are caused by small particles, e.g., organic matter and sand, between the underwater scene and photosensors. We mathematically model two typical types of marine snow from the observations of real underwater images. The modeled artifacts are synthesized with underwater images to construct large-scale pairs of ground-truth and degraded images to calculate objective qualities for marine snow removal and to train a deep neural network.
 
 ## References
-If you use the MSRB Dataset in your paper, please cite the following paper.
-[1]
+If you use MSRB Dataset in your paper, please cite the following paper.
+
+[1] bluhbluhbluh
 
 ## Dataset Descriptions
 MSRB Dataset has two sub-datasets:
-- MSR Task 1: Removal of small-sized marine snow artifacts.
-- MSR Task 2: Removal of various-sized marine snow artifacts.
+- **MSR Task 1**: Removal of small-sized marine snow artifacts.
+- **MSR Task 2**: Removal of various-sized marine snow artifacts.
 
 Each sub-dataset corresponding to a MSR Task contains 2,300 training image pairs and 400 test image pairs, all having a pixel resolution of 384 x 384. An image pair contains one original underwater image and one image containing synthesized marine snow artifacts. Each synthesized image contains 100--600 marine snow particles.
 
@@ -23,7 +24,7 @@ In Task 1, the maximum width/height of the artifacts is restricted to 6 pixels, 
 The synthesized images for Task 2 have small- and large-sized marine snow artifacts. For large-sized artifacts, we set the largest width/height of marine snow to 32 pixels, which corresponds to 8.3% compared to the image width. Furthermore, the probabilities of small- and large-sized artifacts are set to 0.7 and 0.3, respectively.
 
 ## Downloading MSRB Dataset
-You can download MSRB Dataset from this page.
+You can download MSRB Dataset from this repository. The file is zipped. After unzipping, you can find MSRB1 and MSRB2 directories which correspond to the Tasks 1 and 2, respectively. You can find training and test directories under MSRB1 and MSRB2.
 
 ## Examples from MSRB Dataset
 
