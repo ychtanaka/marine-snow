@@ -4,7 +4,8 @@ Welcome to the repository for Marine Snow Removal Benchmarking Dataset (MSRB Dat
 Marine snow is one of the main degradation sources of underwater images that are caused by small particles, e.g., organic matter and sand, between the underwater scene and photosensors. We mathematically model two typical types of marine snow from the observations of real underwater images. The modeled artifacts are synthesized with underwater images to construct large-scale pairs of ground-truth and degraded images to calculate objective qualities for marine snow removal and to train a deep neural network.
 
 ## References
-If you use the MSRB Dataset, please refer to the following paper.
+If you use the MSRB Dataset in your paper, please cite the following paper.
+[1]
 
 ## Dataset Descriptions
 MSRB Dataset has two sub-datasets:
@@ -22,9 +23,31 @@ In Task 1, the maximum width/height of the artifacts is restricted to 6 pixels, 
 The synthesized images for Task 2 have small- and large-sized marine snow artifacts. For large-sized artifacts, we set the largest width/height of marine snow to 32 pixels, which corresponds to 8.3% compared to the image width. Furthermore, the probabilities of small- and large-sized artifacts are set to 0.7 and 0.3, respectively.
 
 ## Downloading MSRB Dataset
-
+You can download MSRB Dataset from this page.
 
 ## Examples from MSRB Dataset
 
 
 ## MSR Benchmarking Results
+The following tables are the current state-of-the-art results for marine snow removal. The average PSNRs/SSIMs are computed over the test datasets. If you would like to update the results, [please let us know](<mailto:ytnk@cc.tuat.ac.jp>)!
+
+### MSR Task 1
+|Method   | PSNR  | SSIM  |
+|---|---|---|
+|Median filter (kernel size 3x3)   |  28.55 | 0.846  |
+|Median filter (kernel size 5x5)   |  25.98 | 0.711  |
+|Adaptive median filter (kernel size 3x3)   | 29.88  | 0.910  |
+|Adaptive median filter (kernel size 5x5)   | 28.08  | 0.861  |
+|U-Net   | 36.82  | 0.978  |
+|Synthesized image   | 32.20  | 0.945  |
+
+
+### MSR Task 2
+|Method   | PSNR  | SSIM  |
+|---|---|---|
+|Median filter (kernel size 3x3)   |22.81   | 0.770  |
+|Median filter (kernel size 5x5)   |21.93   | 0.645  |
+|Adaptive median filter (kernel size 3x3)   | 23.35  | 0.842  |
+|Adaptive median filter (kernel size 5x5)   | 22.83  | 0.794  |
+|U-Net   | 30.95  | 0.932  |
+|Synthesized image   | 23.83  | 0.876  |
