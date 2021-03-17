@@ -2,7 +2,7 @@
 
 Welcome to the repository for **Marine Snow Removal Benchmarking Dataset** (**MSRB Dataset** in short).
 
-<img src="img/174710351_orig.png" width=30%><img src="img/174710351_task1.png" width=30%><img src="img/174710351_task2.png" width=30%>
+<img src="img/174710351_orig.png" width=30%> <img src="img/174710351_task1.png" width=30%> <img src="img/174710351_task2.png" width=30%>
 
 *An example from Marine Snow Removal Benchmarking Dataset. Left: Original underwater image. Middle: Synthesized image for Task 1, small-sized marine snow artifacts. Right: Synthesized image for Task 2, various-sized marine snow artifacts.*
 
