@@ -32,7 +32,7 @@ The synthesized images for Task 2 have small- and large-sized marine snow artifa
 You can download MSRB Dataset from this repository. The file is zipped. After unzipping, you can find MSRB1 and MSRB2 directories which correspond to the Tasks 1 and 2, respectively. There are training and test directories under MSRB1 and MSRB2.
 
 ## Examples from MSRB Dataset
-The images below are examples from the test data of MSRB Dataset. From left to right: Original underwater image, synthesized image for MSR Task 1, and synthesized image for MSR Task 2.
+The images below are examples from the test data of MSRB Dataset.
 
 |Original underwater image| Synthesized image for Task 1| Synthesized image for Task 2|
 |---|---|---|
@@ -65,7 +65,7 @@ The following tables are the current state-of-the-art results for marine snow re
 |Synthesized image   | 23.83  | 0.876  |
 
 ### Restoration Results
-Images below are restoration results.
+The images below are restoration examples for both tasks.
 
 #### MSR Task 1
 |Median filter  | Adaptive median filter  | U-Net  |
