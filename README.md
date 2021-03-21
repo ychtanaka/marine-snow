@@ -29,7 +29,7 @@ In Task 1, the maximum width/height of the artifacts is restricted to 6 pixels, 
 The synthesized images for Task 2 have small- and large-sized marine snow artifacts. For large-sized artifacts, we set the largest width/height of marine snow to 32 pixels, which corresponds to 8.3% compared to the image width. Furthermore, the probabilities of small- and large-sized artifacts are set to 0.7 and 0.3, respectively.
 
 ## Downloading MSRB Dataset
-You can download MSRB Dataset from [Google Drive](<https://drive.google.com/file/d/1OMNWB-5c3CoKrLgTAzcNAZj6gA4jxIYU/view?usp=sharing>). The file is zipped. After unzipping, you can find MSRB1 and MSRB2 directories which correspond to the Tasks 1 and 2, respectively. There are training and test directories under MSRB1 and MSRB2.
+You can download MSRB Dataset from [Google Drive](<https://drive.google.com/drive/folders/1OMJXLwJNKSR2aq5BFEXHHMgcYKv6kUjq?usp=sharing>). The file is zipped. After unzipping, you can find MSRB1 and MSRB2 directories which correspond to the Tasks 1 and 2, respectively. There are training and test directories under MSRB1 and MSRB2.
 
 ## Examples from MSRB Dataset
 The images below are examples from the test data of MSRB Dataset.
