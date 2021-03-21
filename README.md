@@ -42,7 +42,7 @@ The images below are examples from the test data of MSRB Dataset.
 |<img src="img/2907172_orig.png" width=100%> | <img src="img/2907172_task1.png" width=100%> | <img src="img/2907172_task2.png" width=100%>|
 |<img src="img/41918455_orig.png" width=100%> | <img src="img/41918455_task1.png" width=100%> | <img src="img/41918455_task2.png" width=100%>|
 
-## MSR Benchmarking Results
+## Marine Snow Removal Benchmarking Results
 The following tables are the current state-of-the-art results for marine snow removal. The average PSNRs/SSIMs are computed over the test datasets. If you would like to update the results, [please let us know](<mailto:ytnk@cc.tuat.ac.jp>)!
 
 ### MSR Task 1
