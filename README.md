@@ -1,6 +1,6 @@
 # Marine Snow Removal Benchmarking Dataset
 
-Welcome to the repository for **Marine Snow Removal Benchmarking Dataset** (**MSRB Dataset** in short).
+Welcome to **Marine Snow Removal Benchmarking Dataset** (**MSRB Dataset** in short).
 
 <img src="img/174710351_orig.png" width=30%> <img src="img/174710351_task1.png" width=30%> <img src="img/174710351_task2.png" width=30%>
 
@@ -85,4 +85,4 @@ The images below are restoration examples for both tasks.
 ## Copyright
 Copyright (c) 2020 Yuya Sato, Takumi Ueda, and Yuichi Tanaka.
 
-We would like to thank all users on flickr who made original underwater images available under the CC BY-NC-SA 2.0 license. Credits of all the images in MSRB Dataset are available in this repository through xxxx. Please let us know if you have any questions and comments on this dataset.
+We would like to thank all users on flickr who made original underwater images available under the CC BY-NC-SA 2.0 license. Credits of all the images in MSRB Dataset are available in this repository through img_user_id.csv. Please let us know if you have any questions and comments on this dataset.
