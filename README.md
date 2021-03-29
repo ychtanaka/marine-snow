@@ -11,7 +11,7 @@ Marine snow is one of the main degradation sources of underwater images that are
 ## References
 If you use MSRB Dataset in your paper, please cite the following paper. The details for synthesizing marine snow artifacts are also described.
 
-1. Y. Sato, T. Ueda, and Y. Tanaka, "Marine snow removal benchmarking dataset," 2021.
+1. Y. Sato, T. Ueda, and Y. Tanaka, "Marine snow removal benchmarking dataset," [arXiv:2103.14249](https://arxiv.org/abs/2103.14249), 2021.
 
 ## Dataset Descriptions
 MSRB Dataset has two sub-datasets:
