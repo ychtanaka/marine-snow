@@ -85,6 +85,6 @@ The images below are restoration examples for both tasks.
 |<img src="img/task2/41918455_mf.png" width=100%> | <img src="img/task2/41918455_amf.png" width=100%> | <img src="img/task2/41918455_unet.png" width=100%>|
 
 ## Copyright
-Copyright (c) 2021 Yuya Sato, Takumi Ueda, and Yuichi Tanaka.
+Copyright (c) 2023 Reina Kaneko, Yuya Sato, Takumi Ueda, Hiroshi Higashi, and Yuichi Tanaka.
 
 We would like to thank all users on flickr who made original underwater images available under the CC BY-NC-SA 2.0 license. Credits of all the images in MSRB Dataset are available in this repository through img_user_id.csv. Please let us know if you have any questions and comments on this dataset.
